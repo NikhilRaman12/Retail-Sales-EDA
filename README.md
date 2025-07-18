@@ -71,11 +71,11 @@ I specialize in EDA, Tableau dashboards, and Python-based business insights.
 
 📘 Notebook on Kaggle:
 
- 🔗 https://www.kaggle.com/nikhilraman01/retail-inventory-sales-eda
+ 🔗 https://www.kaggle.com/code/nikhilramank/retail-inventory-sales-eda
 
 🔗 Connect with me on LinkedIn:
-
- https://www.linkedin.com/in/nikhilraman01
+https://www.linkedin.com/in/nikhil-raman-k-448589201/
+ 
 
  If you found this helpful, please star the repo!
 
