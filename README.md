@@ -1,118 +1,85 @@
-📌 Project Overview
-This project presents an in-depth Exploratory Data Analysis (EDA) of a retail inventory and sales dataset. As a Data Analyst with domain expertise in AI training, Life Sciences, Agritech, and FoodTech, I applied analytical techniques to uncover hidden patterns, regional trends, and sales behaviors across categories and units.
+# 📦 Retail Sales & Inventory Analysis
 
-The primary objective was to identify sales bottlenecks, inventory inefficiencies, and optimize pricing strategies through correlation analysis, regional breakdowns, and visual storytelling.
+A complete exploratory data analysis (EDA) project that uncovers insights from retail sales and inventory data using Python. This project investigates the relationship between sales, inventory levels, profit, and regional performance to support business optimization decisions.
 
-🧰 Tools & Libraries Used
-Python (Colab Notebook)
+---
 
-Pandas – data cleaning & transformation
+## 🚀 Objective
 
-NumPy – array operations and calculation logic
+- Analyze retail sales and inventory performance across regions and products  
+- Explore correlations between units sold, sales, and profit  
+- Identify outliers and trends  
+- Provide actionable business insights from data
 
-Matplotlib & Seaborn – data visualization
+---
 
-Jupyter/Colab Notebook – code environment
+## 📊 Final Business Insights
 
-🔍 Key Steps Performed
-📥 1. Data Loading & Initial Exploration
-Loaded retail inventory-sales dataset
+🔍 **1. Strong Correlation Between Units Sold, Sales, and Profit**  
+A strong positive correlation was observed between `Units Sold`, `Sales Revenue`, and `Profit`, confirming that increasing sales volumes positively impacts both revenue and profitability.
 
-Explored data shape, types, null values, and basic statistics
+🌍 **2. Uniform Sales Distribution Across Regions**  
+The sales distribution across `North`, `South`, `East`, and `West` regions was fairly **even**, indicating no significant regional variation in performance.
 
-🧹 2. Data Cleaning
-Treated missing values and null entries
+📦 **3. High Sales Driven by Product Outliers**  
+Each region had a few **high-performing outlier products**, possibly due to **seasonal trends, promotions, or flagship items**. These outliers present an opportunity for focused marketing.
 
-Standardized categorical data
+📉 **4. Slight Negative Correlation Between Inventory and Profit**  
+A mild **negative relationship** was found between inventory levels and profit, suggesting that **excess inventory may reduce profitability**, highlighting the need for better inventory control.
 
-Corrected data types for analysis-ready format
+---
 
-📊 3. Exploratory Data Analysis (EDA)
-Category-wise, Region-wise, and Product-wise sales breakdown
+## 🧰 Tools Used
 
-Visualized patterns in:
+- Python  
+- Pandas  
+- Matplotlib  
+- Seaborn  
+- Colab Notebook
 
-Units Sold
+---
 
-Average Unit Price
+## 📁 Project Files
 
-Inventory Cost
+Retail_Sales_Inventory_Analysis/
+├── Retail_Sales_Inventory.ipynb # Full EDA notebook
+├── README.md # Project overview
+├── correlation_matrix.png # Correlation heatmap image
+├── product_sales_boxplot.png # Boxplot visualization
 
-Created a Correlation Matrix to identify feature relationships
 
-📌 4. Visualizations
-Bar plots, pie charts, and heatmaps to represent:
+---
 
-Regional sales patterns
+## 📈 Visual Highlights
 
-Inventory trends
+| 📌 Correlation Matrix | 📌 Category Units sold Boxplot |
+|-
 
-Category comparisons
 
-Correlation among numerical features
+This project uses a fictional/anonymized retail dataset containing:  
+- `Product Name`  
+- `Region`  
+- `Units Sold`  
+- `Inventory`  
+- `Sales`  
+- `Profit`
 
-📈 Correlation Matrix Interpretation
 
-Note: Replace with actual image path or link.
+👨‍💻 About Me
+I’m Nikhil Raman, a data analyst with expertise in retail analytics, Data interpretation, Dashboarding,  prompt engineering, and life sciences.
+I specialize in EDA, Tableau dashboards, and Python-based business insights.
 
-The correlation heatmap helped uncover how unit cost, unit price, and inventory values interact.
+📘 Notebook on Kaggle:
 
-Some variables like Units Sold showed weaker correlation with price, suggesting non-price-driven factors such as brand, seasonality, or region affecting sales.
+ 🔗 https://www.kaggle.com/nikhilraman01/retail-inventory-sales-eda
 
-💡 Business Insights
-🔍 Category Performance:
-Beverages and Snacks outperform others in terms of units sold, pointing to high turnover products worth prioritizing.
+🔗 Connect with me on LinkedIn:
 
-📍 Regional Sales Disparity:
-The West region displays high inventory but low unit sales, suggesting a probable overstocking issue. It may benefit from targeted marketing or redistribution.
+ https://www.linkedin.com/in/nikhilraman01
 
-💰 Pricing Strategy:
-Despite high unit prices in some categories, sales volume is not proportionally high — indicating a need for price sensitivity or segmentation analysis.
+ If you found this helpful, please star the repo!
 
-📦 Stock Optimization:
-Irregular sales patterns in some categories indicate seasonality or ineffective stock planning. These categories require dynamic inventory models.
 
-📈 Correlation Insight:
-The matrix reveals that unit cost and inventory values are closely linked, but sales volume is relatively independent of price, possibly due to necessity-driven demand.
-
-📂 Repository Structure
-graphql
-Copy
-Edit
-📁 Retail-Inventory-Sales-EDA
-│
-├── 📓 Retail_EDA_Notebook.ipynb    # Full EDA with visualizations
-├── 📊 cleaned_retail_dataset.csv   # Cleaned data used in analysis
-├── 🖼️ correlation_matrix_image.png # (Optional) Correlation heatmap
-├── 📄 README.md                    # Project description and insights
-🚀 Next Steps (Optional Enhancements)
-Build a Sales Forecasting Model
-
-Apply Clustering for region/category segmentation
-
-Develop Inventory Optimization Dashboard in Tableau or Power BI
-
-💼 About Me
-👤 Nikhil Raman
-Data Analyst | Prompt Engineering Specialist | Life Sciences & Agritech Domain Expert
-
-💻 Contributor in AI training (LLM, NLP, RLHF projects)
-
-📊 Skilled in Python, SQL, Excel, Tableau, Power BI
-
-🌾 Background in Plant Pathology, Crop Modeling & Data-driven AgriTech
-
-🧠 Passionate about combining domain knowledge with data science to drive actionable impact
-
-Connect With Me
-Tableau Public Profile:
-https://public.tableau.com/app/profile/nikhil.raman
-
-GitHub Profile:
-https://github.com/NikhilRaman12
-
-Kaggle Profile:
-https://www.kaggle.com/nikhilramank
 
 
 
